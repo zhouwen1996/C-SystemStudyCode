@@ -1,0 +1,16 @@
+﻿生成启动时间为 2020/8/27 23:37:18。
+     1>项目“E:\CPulsCode\TestJSON\TestJSON\TestJSON.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\include\\" /Fd"..\include\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>e:\cpulscode\testjson\main.cpp(286): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CPulsCode\TestJSON\Debug\TestJSON.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\CPulsCode\TestJSON\lib json_vc71_libmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CPulsCode\TestJSON\Debug\TestJSON.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CPulsCode\TestJSON\Debug\TestJSON.lib" /MACHINE:X86 ..\include\jsontest.obj
+         ..\include\main.obj
+         TestJSON.vcxproj -> E:\CPulsCode\TestJSON\Debug\TestJSON.exe
+     1>已完成生成项目“E:\CPulsCode\TestJSON\TestJSON\TestJSON.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.37

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\Hell02.dir/objects.a
+D:\Qt\qtCreat\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\Hell02.dir/objects.a @CMakeFiles\Hell02.dir\objects1.rsp
+D:\Qt\qtCreat\Tools\mingw730_64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Hell02.dir/objects.a -Wl,--no-whole-archive  -o Hell02.exe -Wl,--out-implib,libHell02.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hell02.dir\linklibs.rsp
